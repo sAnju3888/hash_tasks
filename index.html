@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notes Maker</title>
+    <link rel="stylesheet" href="notes.css">
+</head>
+<body>
+    <ul id="hash-keys">
+
+    </ul>
+    <div class="container">
+        <div class="co">
+            <h2 id="heading" > HASH LIST </h2>
+            <img src="images/logo.jpeg" alt="Remember-by-hash">
+        </div>
+
+        <div>
+            <input type="text" placeholder="Enter Tag" id="tag" required>
+            <input type="text" placeholder="Markdown Your Tasks" id="tasks" required>
+            <button id="add-btn" class="btn">Add</button>
+            <br><br><br>
+            <ul id="lists">
+
+            </ul>
+        </div>
+        
+    </div>
+
+    <div id="model">
+        <h2> Are You Okay To Delete this task?</h2>
+            <button id = close_model onclick="no()">NO</button>
+            <button id=delete_val onclick="yes()">YES</button>
+    </div>
+
+    <script src="note.js"></script>
+</body>
+
+
+</html>
