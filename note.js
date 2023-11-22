@@ -88,8 +88,7 @@ function display_keys(){
 
         if (key != "" && arr[key].length != 0){
         items += `
-        <li> <a href = "#" onclick = "render(arr,${key})"> # ${key} </a> </li>
-        
+        <li> <button onclick = "render(arr,${key})"> # ${key} </button> </li>
         `;
         }
     }
