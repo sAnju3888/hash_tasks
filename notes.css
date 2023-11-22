@@ -110,10 +110,8 @@ ul {
     list-style: none;
 
 }
-a{
-    text-decoration: none;
-}
-a:hover{
+
+button:hover{
     color: crimson;
     font-weight: bold;
     cursor: pointer;
@@ -130,13 +128,13 @@ a:hover{
     text-align: center;
     font-size: x-large;
 }
-#hash-keys a{
-    color: white;
+#hash-keys button{
+   
     font-weight: bold;
     cursor: pointer;
 }
 
-#hash-keys a:hover{
+#hash-keys button:hover{
     color: crimson;
     font-weight: bold;
     cursor: pointer;
