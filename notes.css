@@ -41,10 +41,10 @@ body{
     
 }
 #model button{
-    font-size:0.3rem;
+    font-size:1.3rem;
     border: 1px solid #e0e0e0;
     border-radius: 0.3125em;
-    padding: 0.2em;
+    padding: 1.2em;
  
     background-color:crimson;
     color:white;
