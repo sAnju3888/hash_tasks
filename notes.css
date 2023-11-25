@@ -41,6 +41,7 @@ body{
     
 }
 #model button{
+    font-size:0.9em;
    width:45%;
    padding:0.3125em;
     border: 1px solid #e0e0e0;
