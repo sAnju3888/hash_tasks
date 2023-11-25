@@ -43,11 +43,11 @@ body{
 #model button{
     font-size:1.3rem;
     width: 6.25em;
-    height: 40px;
+    height: 2.5em;
     border: 1px solid #e0e0e0;
-    border-radius: 5px;
-    padding: 5px;
-    margin: 5px;
+    border-radius: 0.3125em;
+    padding: 0.3125em;
+    margin: 0.3125em;
     background-color:crimson;
     color:white;
     font-weight: bold;
