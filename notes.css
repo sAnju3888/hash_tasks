@@ -41,18 +41,22 @@ body{
     
 }
 #model button{
-    font-size:0.9em;
-   width:45%;
-   padding:0.3125em;
-    border: 1px solid #e0e0e0;
     border-radius: 0.3125em; 
-    background-color:crimson;
-    color:white;
+    padding:0.375em;
     font-weight: bold;
+    font-size:1.58em;
     cursor: pointer;
-}
+    background-color: #212529;
+    color: whitesmoke;
+    background: black;
+    border: 1px solid #e0e0e0;
+    border-radius: 0.6em;
+    padding: 5px;
+    margin: 5px;
+
+}   
 #model button:hover{
-    color:black;
+    color:crimson;
     font-weight: bold;
     cursor: pointer;
 }
