@@ -41,11 +41,10 @@ body{
     
 }
 #model button{
-    font-size:1.3rem;
+   width:45%;
+   padding:0.3125em;
     border: 1px solid #e0e0e0;
-    border-radius: 0.3125em;
-    padding: 1.2em;
- 
+    border-radius: 0.3125em; 
     background-color:crimson;
     color:white;
     font-weight: bold;
@@ -151,5 +150,3 @@ button:hover{
     font-weight: bold;
     cursor: pointer;
 }
-
-
